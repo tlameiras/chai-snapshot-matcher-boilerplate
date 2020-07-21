@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 
 describe('chai-snapshot-matcher', function() {
-  describe('- matchSapshot -', function() {
+  describe('- matchSnapshot -', function() {
     it('use matchSnapshot to expect numbers', function() {
       const testVar = 1;
 

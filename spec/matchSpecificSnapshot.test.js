@@ -2,7 +2,7 @@ require('dotenv').config();
 const { expect } = require('chai');
 
 describe('chai-snapshot-matcher', function() {
-  describe('- matchSpecificSapshot -', function() {
+  describe('- matchSpecificSnapshot -', function() {
     it('use the same functionalities of matchSnapshot', function() {
       const testVarNumber = 1;
       const testVarString = typeof testVarNumber;

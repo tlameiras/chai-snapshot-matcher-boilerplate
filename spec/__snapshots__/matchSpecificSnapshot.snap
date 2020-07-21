@@ -1,16 +1,16 @@
-exports["chai-snapshot-matcher - matchSpecificSapshot - use the same functionalities of matchSnapshot (value)"] = 1;
+exports["chai-snapshot-matcher - matchSpecificSnapshot - use the same functionalities of matchSnapshot (value)"] = 1;
 
-exports["chai-snapshot-matcher - matchSpecificSapshot - use the same functionalities of matchSnapshot (type)"] = "number";
+exports["chai-snapshot-matcher - matchSpecificSnapshot - use the same functionalities of matchSnapshot (type)"] = "number";
 
-exports["chai-snapshot-matcher - matchSpecificSapshot - use the same functionalities of matchSnapshot (it's positive?)"] = true;
+exports["chai-snapshot-matcher - matchSpecificSnapshot - use the same functionalities of matchSnapshot (it's positive?)"] = true;
 
-exports["chai-snapshot-matcher - matchSpecificSapshot - use the same functionalities of matchSnapshot (info in an array)"] = [
+exports["chai-snapshot-matcher - matchSpecificSnapshot - use the same functionalities of matchSnapshot (info in an array)"] = [
 	1,
 	true,
 	"number"
 ];
 
-exports["chai-snapshot-matcher - matchSpecificSapshot - use the same functionalities of matchSnapshot (info in an object)"] = {
+exports["chai-snapshot-matcher - matchSpecificSnapshot - use the same functionalities of matchSnapshot (info in an object)"] = {
 	"value": 1,
 	"type": "number",
 	"positive": true
