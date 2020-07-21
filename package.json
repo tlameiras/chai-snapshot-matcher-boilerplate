@@ -4,7 +4,7 @@
   "description": "Boilerplate project using the chai-snapshot-matcher",
   "scripts": {
     "lint": "eslint . --ext .js",
-    "test": "mocha 'spec/**/*.test.js' --require chai-snapshot-matcher"
+    "test": "mocha 'spec/**/*.test.js'"
   },
   "author": "Tiago Lameiras <tiagoplameiras@gmail.com>",
   "repository": "https://github.com/tlameiras/chai-snapshot-matcher-boilerplate",
@@ -30,5 +30,10 @@
     "hooks": {
       "pre-commit": "yarn lint"
     }
+  },
+  "mocha": {
+    "require": [
+      "chai-snapshot-matcher"
+    ]
   }
 }
