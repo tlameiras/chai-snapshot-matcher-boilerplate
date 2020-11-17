@@ -22,7 +22,7 @@ yarn add chai-snapshot-matcher
 
 ## Version:
 
-This boilerplate project use the chai-snapshot-matcher v1.0.6. In fact, this is latest and recommended version.
+This boilerplate project use the chai-snapshot-matcher v1.0.7.
 
 ## Features:
 
