@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "chai": "^4.2.0",
-    "chai-snapshot-matcher": "^1.0.7",
+    "chai-snapshot-matcher": "^2.0.3",
     "dotenv": "^8.2.0"
   },
   "husky": {

@@ -184,10 +184,13 @@ camelcase@^5.0.0:
   resolved "https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-chai-snapshot-matcher@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.npmjs.org/chai-snapshot-matcher/-/chai-snapshot-matcher-1.0.7.tgz#35ace64a4538ab1ead750d7f96c4f698cb4c04a5"
-  integrity sha512-GxsHN8wi29T4xKjh37RmFvuTtn4SrMXflFbfjZnbT87ESR797srg3fT8woWVchQSfvwhJXR5TUEaCnPITbuPYw==
+chai-snapshot-matcher@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/chai-snapshot-matcher/-/chai-snapshot-matcher-2.0.3.tgz#48f43a120a261610cbfa811dc7d1d5608a4a112c"
+  integrity sha512-2XLWeTT2DFSGF2+gPsZT9k3SqszehKg2m7p9PLCaTsdTdZVdEbGhjoboCksb4KZD5JQuM3o3JZiOPcsH1VXasg==
+  dependencies:
+    chai "^4.2.0"
+    lodash "^4.17.20"
 
 chai@^4.2.0:
   version "4.2.0"
@@ -1136,7 +1139,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19:
+lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
