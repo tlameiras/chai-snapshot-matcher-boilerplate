@@ -88,9 +88,5 @@ describe('chai-snapshot-matcher', function () {
         name: 'Snapshot with a custom name, saved in a nested folder',
       });
     });
-
-    // TODO
-    // Add test to the name attribute
-    // Add test to the ignore attribute
   });
 });
