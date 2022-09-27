@@ -1,4 +1,6 @@
 const { expect } = require('chai');
+require('dotenv').config()
+
 
 describe('chai-snapshot-matcher', function () {
   describe('- matchSnapshot -', function () {
